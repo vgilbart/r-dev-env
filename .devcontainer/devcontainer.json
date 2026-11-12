@@ -9,8 +9,8 @@
             "settings": {
                 "r.lsp.diagnostics": false,
                 "r.plot.useHttpgd": true,
-                "r.rpath.linux": "/usr/bin/R",
-                "r.rterm.linux": "/usr/bin/R",
+                "r.rpath.linux": "/opt/conda/envs/seurat/bin/R",
+                "r.rterm.linux": "/opt/conda/envs/seurat/bin/R",
                 "terminal.integrated.sendKeybindingsToShell": true,
                 "svn.multipleFolders.enabled": true,
                 "workbench.editorAssociations": {
@@ -27,5 +27,5 @@
             ]
         }
     },
-    "postCreateCommand": "chown -R vscode:vscode /workspaces/r-dev-env && sh /workspaces/r-dev-env/scripts/localscript.sh && Rscript /workspaces/r-dev-env/scripts/install-r-packages.R"
+    "postCreateCommand": "chown -R vscode:vscode /workspaces/r-dev-env && sh /workspaces/r-dev-env/scripts/localscript.sh"
 }
