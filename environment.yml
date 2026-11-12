@@ -1,0 +1,4 @@
+name: seurat
+dependencies:
+  - conda-forge::r-base
+  - conda-forge::r-seurat
